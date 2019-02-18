@@ -5,5 +5,5 @@ def murlsyview(request):
     return render(request, 'cbv_study_app/myview.html')
 
 
-myview = Template.as_view(
+myview = TemplateView.as_view(
     template_name = 'myapp/myview.html')
